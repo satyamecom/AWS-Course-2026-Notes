@@ -1,0 +1,5 @@
+AWS Scaling:
+
+Horizontal Scaling: Horizontal scaling means increasing the number of instances/system of applications.
+
+Vertical Scaling: Vertical scaling means increasing the capacity, like t2.micro to t2.large.
