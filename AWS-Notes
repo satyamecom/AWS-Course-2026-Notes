@@ -31,10 +31,13 @@ Forward TCP & UDP traffic to your instances
 -Handles millions of requests per second.
 - Ultra-low latency.
  
-Gateway Load Balancer(GLB): Deploy, scale, and manage a fleet of 3rd party network virtual applications in AWS. e.g., firewall, intrusion detection and prevention systems, Deep packet inspection systems, payload manipulation.
+Gateway Load Balancer (GLB): Deploy, scale, and manage a fleet of 3rd-party network virtual appliances in AWS. e.g., firewall, intrusion detection and prevention systems, Deep packet inspection systems, payload manipulation.
 - Operates at layer 3(Network layer) - IP packets
-- Combine the following functions:
+- Combines the following functions:
 - Transparent Network Gateway - single entry/exit for all traffic
 - Load balancer - distributes traffic to your virtual appliances.
 - Uses the GENEVE protocol on port 6081
-Exam: Suppose if we want to impose some security practices for users requesting to access the application, but we want to validate the traffic via our 3rd party security tool and pass that traffic to the application after validation. 
+Exam: Suppose we want to impose some security practices for users requesting to access the application, but we want to validate the traffic via our 3rd party security tool and pass that traffic to the application after validation. 
+
+
+Sticky Session (Cookies): Sticky session works in ELB like cookies, and we can enable it by editing the TG settings. There are two ways to use the stickiness: one is a load balancer-generated cookie, or Application based cookie custom (we have to provide the name of the cookie)
