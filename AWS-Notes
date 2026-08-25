@@ -2,6 +2,13 @@ AWS Scaling:
 
 Horizontal Scaling: Horizontal scaling means increasing the number of instances/system of applications.
 
-Vertical Scaling: Vertical scaling means increasing the capacity, like t2.micro to t2.large.
+Vertical Scaling: Vertical scaling means increasing capacity, like moving from t2.micro to t2.large.
+
+High Availability: Run instances for the same application across multi AZ
+Auto Scaling group multi-AZ
+Load balancer multi-AZ
 
 High Availability: High Availability usually goes hand in hand with horizontal scaling. It means running your applications/systems in at least 2 data centres (Availability zones).
+The goal of HA is to survive a data centre loss.
+HA can be passive (for RDS multi-AZ, for example)
+The HA can be active (for horizontal scaling)
